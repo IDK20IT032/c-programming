@@ -1,0 +1,28 @@
+#include<studio.h>
+ int main()
+{
+char opr;
+double first, second;
+printf("enter operator(+,-,*,/)");
+scanf("%c",&opr)
+printf("enter 2 operands");
+scanf("%1f%1f,&first,& second);
+
+switch (opr){
+   case'+'
+printf("%.1lf+%.1lf=%.1lf,first",secound,first+second);
+break;
+case'-'
+printf("%.1lf-%.1lf=%.1lf", first, second,first-second);
+break;
+case'*'
+printf("%.1lf*%.1lf=%.lf",first, second,first*second);
+break;
+case'/'
+printf("%.1lf/%.1lf=%.1lf",first, second,first/second);
+break
+Default:
+printf("error, operator is not correct");
+}
+   Return 0;
+  }
